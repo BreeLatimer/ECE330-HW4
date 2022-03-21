@@ -1,8 +1,12 @@
 /**
+ * ECE-330 HW4 Problem #2
  * Author: Bree Latimer
  * Date: 3/20/2022
  * 
- * This program populates two arrays of size 10 with random numbers between 0 and 9.
+ * I tried ¯\_(ツ)_/¯
+ * Segfaults will not leave me alone.
+ * 
+ * This program has 2 predetermined sets of size 10.
  * We then print the results of the following set operations.
  * A Union B
  * A Intersection B
@@ -19,7 +23,6 @@ int * set_union();
 
 
 const int ARRAY_SIZE = 10;
-
 
 int main(int argc, char *argv[]){
     //Giving our random number generator a seed
